@@ -21,8 +21,8 @@ Este projeto é uma aplicação web simples para gerenciar o cadastro de peças.
 Antes de executar a aplicação, certifique-se de ter as seguintes ferramentas instaladas:
 
 - Node.js e npm (para o front-end).
-- Visual Studio Code (ou outra IDE de sua escolha) (para o backend e front-end).
-- SQL Server (ou outro banco de dados compatível).
+- Visual Studio Code
+- Compatível somente com SQL Server 
 
 ### Configurando o Front-end e Backend
 
