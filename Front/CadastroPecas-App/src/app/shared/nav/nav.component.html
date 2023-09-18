@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-white sticky-top" *ngIf="showMenu()">
+  <div class="container">
+    <a class="navbar-brand" routerLink="dashboard">
+      <i class="fa fa-users mb-2"></i></a>
+    <button class="navbar-toggler navbar-toggler-right" (click) = "isCollapsed = !isCollapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" [collapse]="isCollapsed" [isAnimated]="true" id="navbarResponsive">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" aria-current="page" routerLink="pecas/lista">Cadastro de Peças</a>
+        </li>
+
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
